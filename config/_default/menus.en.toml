@@ -1,0 +1,78 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[main]]
+name = "Elements"
+url = "elements/"
+weight = 3
+
+[[main]]
+weight = 4
+name = "Past Dinners"
+url = "past-dinners/"
+
+[[main]]
+weight = 5
+name = "People"
+url = "people/"
+
+[[main]]
+weight = 6
+name = "Thoughts"
+url = "thoughts/"
+
+[[main]]
+weight = 7
+name = "FAQs"
+url = "faq/"
+
+[[main]]
+weight = 8
+name = "Information for"
+hasChildren = true
+
+[[main]]
+parent = "Information for"
+name = "Students"
+url = "info-students/"
+
+[[main]]
+parent = "Information for"
+name = "Faculty"
+url = "info-faculty/"
+
+[[main]]
+parent = "Information for"
+name = "Contact"
+url = "contact/"
+
+[[main]]
+parent = "Information for"
+name = "Categories"
+url = "categories/"
+
+# footer menu
+[[footer]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[footer]]
+name = "Elements"
+url = "elements/"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+url = "privacy-policy/"
+weight = 3
